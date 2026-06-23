@@ -5,6 +5,7 @@
 #include <zephyr/dt-bindings/input/input-event-codes.h>
 #include <behaviors/runtime-sensor-rotate.dtsi>
 #include <behaviors.dtsi>
+#include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/pointing.h>
 #include <dt-bindings/zmk/rgb.h>
@@ -101,11 +102,11 @@
 
         Symbols_Others {
             bindings = <
-&kp F1     &kp F2  &kp F3  &kp F4  &kp F5  &kp F6    &trans  &kp F7      &kp F8  &kp F9  &kp F10  &kp F11    &kp F12
-&kp GRAVE  &trans  &trans  &trans  &trans  &trans    &trans  &kp DELETE  &trans  &trans  &none    &kp MINUS  &kp EQUAL
-&trans     &trans  &trans  &trans  &trans  &trans    &trans  &trans      &trans  &trans  &trans   &kp LBKT   &kp RBKT
-&trans     &trans  &trans  &trans  &trans  &trans    &trans  &trans      &trans  &trans  &trans   &trans     &trans
-&trans     &trans  &trans  &trans  &trans  &trans    &trans  &trans      &trans  &trans  &trans   &trans
+&kp F1     &kp F2  &kp F3  &kp F4  &kp F5      &kp F6        &trans  &kp F7      &kp F8  &kp F9  &kp F10  &kp F11    &kp F12
+&kp GRAVE  &trans  &trans  &trans  &bt BT_PRV  &bt BT_NXT    &trans  &kp DELETE  &trans  &trans  &none    &kp MINUS  &kp EQUAL
+&trans     &trans  &trans  &trans  &trans      &trans        &trans  &trans      &trans  &trans  &trans   &kp LBKT   &kp RBKT
+&trans     &trans  &trans  &trans  &trans      &trans        &trans  &trans      &trans  &trans  &trans   &trans     &trans
+&trans     &trans  &trans  &trans  &trans      &trans        &trans  &trans      &trans  &trans  &trans   &trans
             >;
 
             display-name = "LAYER1";
