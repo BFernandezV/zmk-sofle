@@ -99,10 +99,10 @@
             display-name = "LAYER0";
         };
 
-        Symbols {
+        Symbols_Others {
             bindings = <
 &kp F1     &kp F2  &kp F3  &kp F4  &kp F5  &kp F6    &trans  &kp F7      &kp F8  &kp F9  &kp F10  &kp F11    &kp F12
-&kp GRAVE  &trans  &trans  &trans  &trans  &trans    &trans  &kp DELETE  &trans  &trans  &trans   &kp MINUS  &kp EQUAL
+&kp GRAVE  &trans  &trans  &trans  &trans  &trans    &trans  &kp DELETE  &trans  &trans  &none    &kp MINUS  &kp EQUAL
 &trans     &trans  &trans  &trans  &trans  &trans    &trans  &trans      &trans  &trans  &trans   &kp LBKT   &kp RBKT
 &trans     &trans  &trans  &trans  &trans  &trans    &trans  &trans      &trans  &trans  &trans   &trans     &trans
 &trans     &trans  &trans  &trans  &trans  &trans    &trans  &trans      &trans  &trans  &trans   &trans
