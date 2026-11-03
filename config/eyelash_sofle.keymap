@@ -115,11 +115,11 @@
 
         movement {
             bindings = <
-&kp F1      &kp F2           &kp F3          &kp F4           &kp F5           &kp F6             &mmv MOVE_UP     &kp F7           &kp F8           &kp F9    &kp F10    &kp F11  &kp F12
-&trans      &none            &mkp LCLK       &mkp MCLK        &mkp RCLK        &mkp MB4           &mmv MOVE_DOWN   &kp PRINTSCREEN  &none            &kp UP    &none      &none    &none
-&trans      &none            &trans          &trans           &trans           &mkp MB5           &mmv MOVE_LEFT   &none            &kp LEFT         &kp DOWN  &kp RIGHT  &none    &none
-&trans      &rgb_ug RGB_OFF  &rgb_ug RGB_ON  &rgb_ug RGB_EFF  &rgb_ug RGB_EFR  &rgb_ug RGB_SPI    &mmv MOVE_RIGHT  &none            &rgb_ug RGB_BRD  &none     &none      &none    &trans
-&kp C_MUTE  &trans           &trans          &trans           &trans           &trans             &mkp LCLK        &trans           &trans           &trans    &trans     &trans
+&kp F1      &kp F2           &kp F3          &kp F4           &kp F5           &kp F6             &mmv MOVE_UP     &kp F7           &kp F8         &kp F9      &kp F10         &kp F11          &kp F12
+&trans      &none            &mkp LCLK       &mkp MCLK        &mkp RCLK        &mkp MB4           &mmv MOVE_DOWN   &kp PRINTSCREEN  &kp LG(COMMA)  &kp UP      &kp LG(DOT)     &kp LG(W)        &none
+&trans      &none            &trans          &trans           &trans           &mkp MB5           &mmv MOVE_LEFT   &kp LG(R)        &kp LEFT       &kp DOWN    &kp RIGHT       &kp LG(SEMI)     &kp LG(LS(SEMI))
+&trans      &rgb_ug RGB_OFF  &rgb_ug RGB_ON  &rgb_ug RGB_EFF  &rgb_ug RGB_EFR  &rgb_ug RGB_SPI    &mmv MOVE_RIGHT  &kp LG(F)        &kp LG(O)      &kp LG(UP)  &kp LG(DOWN)    &rgb_ug RGB_BRD  &trans
+&kp C_MUTE  &trans           &trans          &trans           &trans           &trans             &mkp LCLK        &trans           &trans         &trans      &kp LG(K_UNDO)  &kp LG(K_AGAIN)
             >;
 
             sensor-bindings = <&scroll_encoder>, <&rsr_trans>;
